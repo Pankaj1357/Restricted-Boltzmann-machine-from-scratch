@@ -10,11 +10,11 @@ weights using contrastive divergence. MNIST was used as the dataset and the mode
 
 # Running the code
 
-<b>1# Getting the Dataset :::</b>
+<b>1# Getting the Dataset:</b>
 
 
-<p>Download the zip file from  ::::    http://yann.lecun.com/exdb/mnist/ <br>
-Download the file names  :::  train-images-idx3-ubyte.gz     |and|       train-labels-idx1-ubyte.gz <br>
+<p>Download the zip file from  ---    http://yann.lecun.com/exdb/mnist/ <br>
+Download the file names  ---  train-images-idx3-ubyte.gz     ---|and|---       train-labels-idx1-ubyte.gz <br>
 unzip the file in current directory and run this script(mnist.py) to save the .csv file in current directory</p>
 
 
