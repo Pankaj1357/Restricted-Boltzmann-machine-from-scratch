@@ -1,7 +1,7 @@
 # Restricted-Boltzmann-machine-from-scratch
 Followings things are implemented in this repository:-
 
-=> Implemented Gibbs sampling in Restrictive Boltzmann Machine (RBM) and trained it using
+<b>=></b> Implemented Gibbs sampling in Restrictive Boltzmann Machine (RBM) and trained it using
 weights using contrastive divergence. MNIST was used as the dataset and the model was implemented using only numpy library.
 
 =>Input size, hidden layer size, and number of steps (k) in the Gibbs chain to be variables, so that these can be
