@@ -7,3 +7,29 @@ weights using contrastive divergence. MNIST was used as the dataset and the mode
 <p><b>=></b> L2 weight decay and momentum in the implementation of training using contrastive divergence.</p>
 <p><b>=></b> Visualized the evolution of MNIST digits in RBM after some k steps. That is, after training, produced some figures such that first figure in the row is a test image, andthen the next three images in the row are fantasy images for for k = 3 starting with the given test image.</p>
 <p><b>=></b> Compare direct classfication of pixels and learned RBM features by training a Softmax classifier using Cross Entropy Loss with L2 weight decay</b>
+
+# Running the code
+
+<b>1# Getting the Dataset :::</b>
+
+
+Download the zip file from  ::::    http://yann.lecun.com/exdb/mnist/
+Download the file names  :::  train-images-idx3-ubyte.gz     |and|       train-labels-idx1-ubyte.gz
+unzip the file in current directory and run this script(mnist.py) to save the .csv file in current directory
+
+
+
+
+<b>2#</b> Once dataset is obtained in .csv file make sure that your current directory have following files 
+
+   --- main.ipynb
+   --- mnist_train.csv
+   --- softmax_classifier.py
+   --- utilities.py
+   
+   
+<b>3#</b> Now run 'main.ipynb' file can be run cell by cell to replicate the results.
+   
+   
+  
+
